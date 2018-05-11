@@ -1,0 +1,26 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 */10 * * * *"
+    },
+    {
+      "type": "documentDB",
+      "name": "inputCollection",
+      "databaseName": "botdocs",
+      "collectionName": "botusers",
+      "connection": "BotCosmosDB",
+      "direction": "in"
+    },
+    {
+      "type": "queue",
+      "name": "outputQueue",
+      "queueName": "usersqueue",
+      "connection": "AzureWebJobsStorage",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

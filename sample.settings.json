@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,   
+  "Values": {
+    "AzureWebJobsStorage": "<<Azure Storage endpoint for this Functions app", 
+    "AzureWebJobsDashboard": "<<Azure Storage endpoint for this Functions app", 
+    "BotCosmosDB": "<<CosmosDB endpoint for the bot>>",
+    "BotProactiveEndpoint": "https://localhost:3978/api/proactive"
+  },
+  "Host": {
+    "LocalHttpPort": 7071, 
+    "CORS": "*" 
+  }
+}

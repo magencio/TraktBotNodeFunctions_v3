@@ -1,0 +1,27 @@
+{
+    "name": "traktbotnodefunctions_v3",
+    "author": "Alejandro Campos Magencio",
+    "description": "Azure functions used to ask TraktBot to send proactive messages to its users",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "azure",
+        "azurefunctions",
+        "serverless",
+        "botbuilder",
+        "botframework",
+        "bots",
+        "chatbots",
+        "trakt"
+    ],
+    "bugs": {
+        "url": "https://github.com/magencio/traktbotnodefunctions_v3/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/magencio/traktbotnodefunctions_v3.git"
+    },    
+    "dependencies": {
+        "request": "^2.85.0"
+    }
+}
